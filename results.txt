@@ -1,0 +1,16 @@
+# Initial version: 7f3432c
+
+ Performance counter stats for './magichex 4 3 14 33 30 34 39 6 24 20':
+
+      897820792440      instructions:u                   #    2.90  insn per cycle
+      257049962259      branches:u
+        2364660644      branch-misses:u                  #    0.92% of all branches
+            490285      L1-dcache-load-misses
+
+      66.439535267 seconds time elapsed
+
+      66.121208000 seconds user
+       0.000000000 seconds sys
+
+# Applying Minimum Remaining Values heuristic:
+
